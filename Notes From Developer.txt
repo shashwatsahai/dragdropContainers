@@ -1,0 +1,7 @@
+Use npm start in backend to start node index.js which starts a express server
+connects to a mongodb server on port 27017, localhost:27017, need to have mongodb setup
+
+Features implemented->
+1. Name A Container(or it will take automatically an id as name and id) and Click Add Container to Add a new Container
+2. Add a name in inventory box and click Add inventory to add an item to that container's items array in db
+3. Drag drop items(inventory) from one container to another to see changes in db container's item array

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel='stylesheet' href="Helpers/bootstrap-4.4.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./Helpers/jquery-ui-1.12.1/jquery-ui.css">
+        <script src="./Helpers/jquery.js"></script>
+        <script src="./Helpers/jquery-ui-1.12.1/jquery-ui.js"></script>
+        <script defer type="text/javascript" src="dragdroputils.js"></script>
+        <script defer type="text/javascript" src="containerHandler.js"></script>
+        <title>Container</title>
+    </head>
+    <body onload='containerHandler.showAll()'>
+        <div class='containerParent'>WareHouse</div>
+        <input type='text' class='containerName'></input>
+        <input type='button' value='Add Container' onclick="containerHandler.addContainer()"></input>
+        <br>
+        <div class='containers container-fluid'>
+            
+        </div>
+        
+       
+    </body>
+</html>
