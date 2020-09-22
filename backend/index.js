@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 const mongoose = require('mongoose')
 const container = require('./models/container');
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 
 var url = "mongodb://localhost:27017/containerDb";
 
